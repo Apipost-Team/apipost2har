@@ -1,0 +1,110 @@
+{
+	"update_day": 1654704000,
+	"update_dtime": 1654772148,
+	"create_dtime": 1654772148,
+	"is_changed": -1,
+	"mark": "developing",
+	"method": "GET",
+	"parent_id": "7e7de2f1-9413-43d9-afd2-0b08b079821c",
+	"project_id": "936fb20e-ea3d-4b8c-a69f-9fc504224272",
+	"sort": -1,
+	"target_id": "41360677-5506-4065-a763-fee9d4712d67",
+	"type_sort": "1",
+	"version": 1,
+	"target_type": "api",
+	"name": "header",
+	"request": {
+		"auth": {
+			"type": "noauth",
+			"kv": {
+				"key": "",
+				"value": ""
+			},
+			"bearer": {
+				"key": ""
+			},
+			"basic": {
+				"username": "",
+				"password": ""
+			}
+		},
+		"body": {
+			"mode": "form-data",
+			"parameter": [{
+				"description": "",
+				"field_type": "Text",
+				"is_checked": 1,
+				"key": "a",
+				"not_null": 1,
+				"type": "Text",
+				"value": "{{name}}"
+			}, {
+				"description": "",
+				"field_type": "Text",
+				"is_checked": 1,
+				"key": "bb",
+				"not_null": 1,
+				"type": "File",
+				"value": "aaa.xml",
+				"content_type": "appliction/xml"
+			}],
+			"raw": "",
+			"raw_para": []
+		},
+		"cookie": {
+			"parameter": []
+		},
+		"description": "",
+		"event": {
+			"pre_script": "",
+			"test": ""
+		},
+		"header": {
+			"parameter": [{
+				"is_checked": "1",
+				"type": "Text",
+				"key": "header",
+				"value": "12321412",
+				"not_null": "-1",
+				"description": "1232131",
+				"field_type": ""
+			}]
+		},
+		"query": {
+			"parameter": [{
+				"is_checked": "1",
+				"type": "Text",
+				"key": "header",
+				"value": "12321412",
+				"not_null": "-1",
+				"description": "1232131",
+				"field_type": ""
+			}]
+		},
+		"resful": {
+			"parameter": [{
+				"is_checked": "1",
+				"type": "Text",
+				"key": "header",
+				"value": "12321412",
+				"not_null": "-1",
+				"description": "1232131",
+				"field_type": ""
+			}]
+		},
+		"url": "999998"
+	},
+	"response": {
+		"success": {
+			"parameter": [],
+			"raw": ""
+		},
+		"error": {
+			"parameter": [],
+			"raw": ""
+		}
+	},
+	"mock": "{}",
+	"mock_url": "",
+	"url": "999998"
+}
