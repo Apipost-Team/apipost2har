@@ -29,7 +29,7 @@
 			}
 		},
 		"body": {
-			"mode": "form-data",
+			"mode": "urlencoded",
 			"parameter": [{
 				"description": "",
 				"field_type": "Text",
@@ -92,7 +92,7 @@
 				"field_type": ""
 			}]
 		},
-		"url": "999998"
+		"url": "http://www.baidu.com?aa=fd asdsa sad sa"
 	},
 	"response": {
 		"success": {

@@ -77,6 +77,11 @@ class apipost2har {
       }
       if (request.hasOwnProperty('body') && request.body.hasOwnProperty('mode') && request.body.mode != 'none') {
         const { body } = request;
+        harRequest.headers.push({
+          name: 'content-type',
+          value: this.createMode(body.mode),
+          comment: '',
+        })
         harRequest.postData = {
           mimeType: this.createMode(body.mode),
           params: [],
